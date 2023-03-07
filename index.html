@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- header section starts  -->
+
+    <header class="header">
+      <a href="#" class="logo">
+        <i class="fas fa-shopping-basket"></i> sport
+      </a>
+
+      <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#features">features</a>
+        <a href="#Products">products</a>
+        <a href="#categories">categories</a>
+        <a href="#review">review</a>
+        <a href="#contact">contact</a>
+      </nav>
+
+      <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-icon"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+      </div>
+
+      <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="search here..." />
+        <label for="search-box" class="fas fa-search"></label>
+      </form>
+
+      <div class="cart">
+        <h2 class="cart-title">your cart</h2>
+        <!-- content cart  -->
+        <div class="cart-content"></div>
+        <!-- total  -->
+
+        <div class="total">
+          <div class="total-title">total</div>
+          <div class="total-price">$0</div>
+        </div>
+
+        <!-- by button  -->
+        <button type="button" class="btn-buy">Buy Now</button>
+
+        <!-- cart close  -->
+        <i class="bx bx-x" id="close-cart"></i>
+      </div>
+
+      <form action="" class="login-form">
+        <h3>login now</h3>
+        <input type="email" placeholder="your email" class="box" />
+        <input type="password" placeholder="your password" class="box" />
+        <p>forget your password <a href="#">click here</a></p>
+        <p>don't have an account <a href="#">create now</a></p>
+        <input type="submit" value="login now" class="btn" />
+      </form>
+    </header>
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+      <div class="content">
+        <h3>
+          chaussure de sport <span>désigne</span>des chaussures conçues pour la
+          pratique sportive,
+        </h3>
+
+        <a href="#" class="btn">shop now</a>
+      </div>
+    </section>
+
+    <!-- features section starts  -->
+
+    <section class="features" id="features">
+      <h1 class="heading">our <span>features</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="—Pngtree—sport sport font_488875.png" alt="" />
+          <h3>sports footwear sport shoes</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt,
+            earum!
+          </p>
+          <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+          <img
+            src="Lovepik_com-401187134-courier-delivers-cargo-elements.png"
+            alt=""
+          />
+          <h3>free delivery</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt,
+            earum!
+          </p>
+          <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+          <img src="Lovepik_com-400496245-pos-and-cash.png" alt="" />
+          <h3>easy cash : paiement chèque</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt,
+            earum!
+          </p>
+          <a href="#" class="btn">read more</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- products section starts  -->
+
+    <section class="shop container" id="Products">
+      <h1 class="heading">shop <span>Products</span></h1>
+
+      <div class="shop-content">
+        <!-- box1 -->
+        <div class="product-box box">
+          <img src="product1.jpg" alt="" class="product-img" />
+          <h2 class="product-title">AEROREADY SHIRT</h2>
+          <span class="price">$25</span>
+          <!-- <i class='bx bx-shopping-bag add-cart'></i> -->
+          <i class="bx bxs-cart-add bx-spin add-cart"></i>
+        </div>
+        <!-- box2 -->
+        <div class="product-box">
+          <img src="product2.jpg" alt="" class="product-img" />
+          <h2 class="product-title">WIRELESS EARBUDS</h2>
+          <span class="price">$36</span>
+          <i class="bx bxs-cart-add bx-spin add-cart"></i>
+        </div>
+        <!-- box3 -->
+        <div class="product-box">
+          <img src="product3.jpg" alt="" class="product-img" />
+          <h2 class="product-title">HOOODED METAL</h2>
+          <span class="price">$99</span>
+          <i class="bx bxs-cart-add bx-spin add-cart"></i>
+        </div>
+        <!-- box4 -->
+        <div class="product-box">
+          <img src="product4.jpg" alt="" class="product-img" />
+          <h2 class="product-title">STRAW METAL BOTTLE</h2>
+          <span class="price">$80</span>
+          <i class="bx bxs-cart-add bx-spin add-cart"></i>
+        </div>
+        <!-- box5 -->
+        <div class="product-box">
+          <img src="product5.jpg" alt="" class="product-img" />
+          <h2 class="product-title">SILVER METAL</h2>
+          <span class="price">$40</span>
+          <i class="bx bxs-cart-add bx-spin add-cart"></i>
+        </div>
+        <!-- box6 -->
+        <div class="product-box">
+          <img src="product6.jpg" alt="" class="product-img" />
+          <h2 class="product-title">BACK HAT</h2>
+          <span class="price">$250</span>
+          <i class="bx bxs-cart-add bx-spin add-cart"></i>
+        </div>
+        <!-- box7 -->
+        <div class="product-box">
+          <img src="product7.jpg" alt="" class="product-img" />
+          <h2 class="product-title">BACKPACK</h2>
+          <span class="price">$100</span>
+          <i class="bx bxs-cart-add bx-spin add-cart"></i>
+        </div>
+        <!-- box8 -->
+        <div class="product-box">
+          <img src="product8.jpg" alt="" class="product-img" />
+          <h2 class="product-title">UL TRABOOST 22</h2>
+          <span class="price">$50</span>
+          <i class="bx bxs-cart-add bx-spin add-cart"></i>
+        </div>
+      </div>
+    </section>
+
+    <!-- categories section starts  -->
+
+    <section class="categories" id="categories">
+      <h1 class="heading">product <span>categories</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="product-10.png" alt="" />
+          <h3>vegitables</h3>
+          <p>upto 45% off</p>
+          <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+          <img src="product-40.png" alt="" />
+          <h3>fresh fruits</h3>
+          <p>upto 45% off</p>
+          <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+          <img src="product-50.jpg" alt="" />
+          <h3>dairy products</h3>
+          <p>upto 45% off</p>
+          <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+          <img src="product-30.png" alt="" />
+          <h3>fresh meat</h3>
+          <p>upto 45% off</p>
+          <a href="#" class="btn">shop now</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- review section starts  -->
+
+    <section class="review" id="review">
+      <h1 class="heading">customer's <span>review</span></h1>
+
+      <div class="swiper review-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <img src="pic-1.png" alt="" />
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde
+              sunt fugiat dolore ipsum id est maxime ad tempore quasi tenetur.
+            </p>
+            <h3>john deo</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="pic-2.png" alt="" />
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde
+              sunt fugiat dolore ipsum id est maxime ad tempore quasi tenetur.
+            </p>
+            <h3>john deo</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="pic-3.png" alt="" />
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde
+              sunt fugiat dolore ipsum id est maxime ad tempore quasi tenetur.
+            </p>
+            <h3>john deo</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="pic-4.png" alt="" />
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde
+              sunt fugiat dolore ipsum id est maxime ad tempore quasi tenetur.
+            </p>
+            <h3>john deo</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- blogs section starts  -->
+
+    <section class="contact" id="contact">
+      <h1 class="heading"><span>contact</span> us</h1>
+
+      <div class="row">
+        <iframe
+          class="map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26496.105886177927!2d10.082058601545283!3d33.889312961176785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12556fc5487bd237%3A0x4980e09bdb547a86!2zR2Fiw6hz!5e0!3m2!1sfr!2stn!4v1672181041407!5m2!1sfr!2stn"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <form action="">
+          <h3>get in touch</h3>
+          <div class="inputBox">
+            <span class="fas fa-user"></span>
+            <input type="text" placeholder="name" />
+          </div>
+          <div class="inputBox">
+            <span class="fas fa-envelope"></span>
+            <input type="email" placeholder="email" />
+          </div>
+          <div class="inputBox">
+            <span class="fas fa-phone"></span>
+            <input type="number" placeholder="number" />
+          </div>
+          <input type="submit" value="contact now" class="btn" />
+        </form>
+      </div>
+    </section>
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>sport <i class="fas fa-shopping-basket"></i></h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam,
+            saepe.
+          </p>
+          <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+          </div>
+        </div>
+
+        <div class="box">
+          <h3>quick links</h3>
+
+          <a href="#home" class="links">
+            <i class="fas fa-arrow-right"></i> home
+          </a>
+          <a href="#features" class="links">
+            <i class="fas fa-arrow-right"></i> features
+          </a>
+          <a href="#Products" class="links">
+            <i class="fas fa-arrow-right"></i> products
+          </a>
+          <a href="#categories" class="links">
+            <i class="fas fa-arrow-right"></i> categories
+          </a>
+          <a href="#review" class="links">
+            <i class="fas fa-arrow-right"></i> review
+          </a>
+          <a href="#Contact" class="links">
+            <i class="fas fa-arrow-right"></i> Contact
+          </a>
+        </div>
+
+        <div class="box">
+          <h3>Newsletter sport</h3>
+          <p>subscribe for latest updates</p>
+          <input type="email" placeholder="your email" class="email" />
+          <input type="submit" value="subscribe" class="btn" />
+          <img src="payment.png" class="payment-img" alt="" />
+        </div>
+      </div>
+
+      <div class="credit"><span> Ben Rhaiem Saida </span></div>
+    </section>
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!--  js file link  -->
+    <script src="script.js"></script>
+  </body>
+</html>
